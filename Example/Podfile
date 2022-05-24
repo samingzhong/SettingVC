@@ -4,6 +4,7 @@ platform :ios, '9.0'
 
 target 'SettingVC_Example' do
   pod 'SettingVC', :path => '../'
+  pod 'ModuleActionsCategorys/HomeVC', :path => '../../ModuleActionsCategorys'
 #  pod 'CommonUtils', :path => '../../CommonUtils'
   target 'SettingVC_Tests' do
     inherit! :search_paths
