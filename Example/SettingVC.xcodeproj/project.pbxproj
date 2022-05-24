@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07499F7041D34050D6203F49 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		07499F7041D34050D6203F49 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1CEFD3269F9011BE36C93F13 /* Pods-SettingVC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SettingVC_Example.release.xcconfig"; path = "Target Support Files/Pods-SettingVC_Example/Pods-SettingVC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5877D202E04B8915E81CBD76 /* Pods-SettingVC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SettingVC_Example.debug.xcconfig"; path = "Target Support Files/Pods-SettingVC_Example/Pods-SettingVC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SettingVC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SettingVC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,13 +60,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		83B449EE43C60388E5448474 /* SettingVC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SettingVC.podspec; path = ../SettingVC.podspec; sourceTree = "<group>"; };
+		83B449EE43C60388E5448474 /* SettingVC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SettingVC.podspec; path = ../SettingVC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E1590028ED4CCF29DE44162 /* Pods_SettingVC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SettingVC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94BDB851889F88AF36C38301 /* Pods-SettingVC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SettingVC_Tests.release.xcconfig"; path = "Target Support Files/Pods-SettingVC_Tests/Pods-SettingVC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A322CD409A78CC7D1688890A /* Pods-SettingVC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SettingVC_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SettingVC_Tests/Pods-SettingVC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BA2B02EA4D513BA5800F4EC3 /* Pods_SettingVC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SettingVC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1C8F4D438DA773942216902 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C1C8F4D438DA773942216902 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				A322CD409A78CC7D1688890A /* Pods-SettingVC_Tests.debug.xcconfig */,
 				94BDB851889F88AF36C38301 /* Pods-SettingVC_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -346,10 +346,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SettingVC_Example/Pods-SettingVC_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/SettingVC/SettingVC.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SettingVC.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

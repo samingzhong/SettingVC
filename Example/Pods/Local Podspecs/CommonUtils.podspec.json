@@ -1,0 +1,23 @@
+{
+  "name": "CommonUtils",
+  "version": "0.1.0",
+  "summary": "A short description of CommonUtils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/samingzhong/CommonUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "samingzhong": "samingzhong@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/samingzhong/CommonUtils.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CommonUtils/Classes/**/*",
+  "public_header_files": "Pod/Classes/*.h"
+}

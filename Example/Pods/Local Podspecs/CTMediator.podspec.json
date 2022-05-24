@@ -1,0 +1,22 @@
+{
+  "name": "CTMediator",
+  "version": "0.1.0",
+  "summary": "A short description of CTMediator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/samingzhong/CTMediator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "samingzhong": "samingzhong@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/samingzhong/CTMediator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CTMediator/Classes/**/*"
+}

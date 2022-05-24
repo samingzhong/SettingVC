@@ -1,0 +1,6 @@
+framework module SettingVC {
+  umbrella header "SettingVC-umbrella.h"
+
+  export *
+  module * { export * }
+}

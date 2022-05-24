@@ -1,0 +1,27 @@
+PODS:
+  - CTMediator (0.1.0)
+  - SettingVC (0.1.0):
+    - CTMediator
+
+DEPENDENCIES:
+  - "CTMediator (from `git@github.com:samingzhong/CTMediator.git`)"
+  - SettingVC (from `../`)
+
+EXTERNAL SOURCES:
+  CTMediator:
+    :git: "git@github.com:samingzhong/CTMediator.git"
+  SettingVC:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  CTMediator:
+    :commit: 6f29c6523d363aba796ad3a48c25bc4f9ca36c53
+    :git: "git@github.com:samingzhong/CTMediator.git"
+
+SPEC CHECKSUMS:
+  CTMediator: 19c3eb0e0b325356b9d09dbfa2b8a91533ab8aa0
+  SettingVC: 1fa745e17dd2dd61984477c7194f06958adf6581
+
+PODFILE CHECKSUM: 79b53cb0f02941837438b83111408274af9292b0
+
+COCOAPODS: 1.10.1
