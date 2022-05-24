@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		088BB932283CD53B00BE5E30 /* Target_SettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 088BB930283CD53B00BE5E30 /* Target_SettingVC.m */; };
-		088BB933283CD53B00BE5E30 /* Target_SettingVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 088BB931283CD53B00BE5E30 /* Target_SettingVC.h */; };
+		088BB936283CD6D500BE5E30 /* Target_SettingVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 088BB934283CD6D500BE5E30 /* Target_SettingVC.h */; };
+		088BB937283CD6D500BE5E30 /* Target_SettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 088BB935283CD6D500BE5E30 /* Target_SettingVC.m */; };
 		0F3AEA84AF06E4F9CFD01F8507C564FD /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 976C5F50AA420DAAE21B4BC30EED6AEB /* CTMediator-dummy.m */; };
 		158B9EC3B7ABC538C2E2ADD00ACFEA21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF3713C6476B15857253DC684CD0C28 /* Foundation.framework */; };
 		35A325BCA6E55AECE81CC524E4E3D2C0 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE8B2B6829C2AF762F31CC0374E4F38 /* CTMediator.m */; };
@@ -64,8 +64,8 @@
 
 /* Begin PBXFileReference section */
 		046F32E364F5D537F96933FE2BC66C08 /* SettingVC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SettingVC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		088BB930283CD53B00BE5E30 /* Target_SettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_SettingVC.m; sourceTree = "<group>"; };
-		088BB931283CD53B00BE5E30 /* Target_SettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_SettingVC.h; sourceTree = "<group>"; };
+		088BB934283CD6D500BE5E30 /* Target_SettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Target_SettingVC.h; path = SettingVC/Classes/Target_SettingVC.h; sourceTree = "<group>"; };
+		088BB935283CD6D500BE5E30 /* Target_SettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Target_SettingVC.m; path = SettingVC/Classes/Target_SettingVC.m; sourceTree = "<group>"; };
 		0E2F5ACCF644B04A9B2256FCA4E0E836 /* Pods-SettingVC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SettingVC_Tests-dummy.m"; sourceTree = "<group>"; };
 		1853F787934A41A568E905685A1375B5 /* CTMediator+HandyTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+HandyTools.m"; path = "CTMediator/Classes/CTMediator+HandyTools.m"; sourceTree = "<group>"; };
 		1D8E3CD400F2581030F4657E44CF003B /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
@@ -171,8 +171,6 @@
 		088BB92F283CD53B00BE5E30 /* Actions */ = {
 			isa = PBXGroup;
 			children = (
-				088BB930283CD53B00BE5E30 /* Target_SettingVC.m */,
-				088BB931283CD53B00BE5E30 /* Target_SettingVC.h */,
 			);
 			name = Actions;
 			path = SettingVC/Classes/Actions;
@@ -228,6 +226,8 @@
 				088BB92F283CD53B00BE5E30 /* Actions */,
 				48E9C863E45F739B5B8743D7F88BCD81 /* SettingVC.h */,
 				28998B3388C237C50C7181C7E48EC35D /* SettingVC.m */,
+				088BB934283CD6D500BE5E30 /* Target_SettingVC.h */,
+				088BB935283CD6D500BE5E30 /* Target_SettingVC.m */,
 				42CF12EF22E6261FCF6508CAD14DBE0B /* Pod */,
 				E7DC6EB305478171822B4816F11D7DBF /* Support Files */,
 			);
@@ -351,7 +351,7 @@
 			files = (
 				DA94EFA909077CCFD35339E9D0EB29D7 /* SettingVC-umbrella.h in Headers */,
 				DC0BDB7C917586CE21E7452A44FF0D6C /* SettingVC.h in Headers */,
-				088BB933283CD53B00BE5E30 /* Target_SettingVC.h in Headers */,
+				088BB936283CD6D500BE5E30 /* Target_SettingVC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,7 +518,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				088BB932283CD53B00BE5E30 /* Target_SettingVC.m in Sources */,
+				088BB937283CD6D500BE5E30 /* Target_SettingVC.m in Sources */,
 				F29BDD8625B610B62A3BB862152A5B94 /* SettingVC-dummy.m in Sources */,
 				93FC88A0A6D12B5EEF9F06D848388CD6 /* SettingVC.m in Sources */,
 			);
