@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		088BB921283CC6CD00BE5E30 /* Target_SettingVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 088BB91F283CC6CD00BE5E30 /* Target_SettingVC.h */; };
 		088BB923283CC6D500BE5E30 /* Target_SettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 088BB920283CC6CD00BE5E30 /* Target_SettingVC.m */; };
+		088BB92E283CD32100BE5E30 /* Target_SettingVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 088BB91F283CC6CD00BE5E30 /* Target_SettingVC.h */; };
 		0F3AEA84AF06E4F9CFD01F8507C564FD /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 976C5F50AA420DAAE21B4BC30EED6AEB /* CTMediator-dummy.m */; };
 		158B9EC3B7ABC538C2E2ADD00ACFEA21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF3713C6476B15857253DC684CD0C28 /* Foundation.framework */; };
 		35A325BCA6E55AECE81CC524E4E3D2C0 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE8B2B6829C2AF762F31CC0374E4F38 /* CTMediator.m */; };
@@ -350,6 +350,7 @@
 			files = (
 				DA94EFA909077CCFD35339E9D0EB29D7 /* SettingVC-umbrella.h in Headers */,
 				DC0BDB7C917586CE21E7452A44FF0D6C /* SettingVC.h in Headers */,
+				088BB92E283CD32100BE5E30 /* Target_SettingVC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +359,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C09153F08610F430E38748CE5B5707E7 /* CTMediator+HandyTools.h in Headers */,
-				088BB921283CC6CD00BE5E30 /* Target_SettingVC.h in Headers */,
 				48873113CA7FBDB32F0961DBB6148E2C /* CTMediator-umbrella.h in Headers */,
 				780723B244BE6638FD09C444C12ACA25 /* CTMediator.h in Headers */,
 			);
