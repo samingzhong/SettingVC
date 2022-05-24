@@ -18,7 +18,10 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "SettingVC/Classes/*",
+  "source_files": [
+    "SettingVC/Classes/*",
+    "SettingVC/Classes/*/*"
+  ],
   "dependencies": {
     "CTMediator": [
 
