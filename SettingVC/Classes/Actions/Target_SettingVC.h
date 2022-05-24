@@ -9,14 +9,13 @@
 #import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
 
-@interface  Target_SettingVC: NSObject
+@interface  Target_SettingVC : NSObject
 
 - (UIViewController *)Action_FetchSettingViewController:(NSDictionary *)params;
-- (id)Action_nativePresentImage:(NSDictionary *)params;
-- (id)Action_showAlert:(NSDictionary *)params;
 
-// 容错
-- (id)Action_nativeNoImage:(NSDictionary *)params;
+- (void)Action_MethodA:(NSDictionary *)params;
+
+- (void)Action_MethodB:(NSDictionary *)params;
 
 @end
 

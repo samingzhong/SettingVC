@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SettingVC : UIViewController
 
+- (void)methodA:(NSDictionary *)params;
+
 @end
 
 NS_ASSUME_NONNULL_END

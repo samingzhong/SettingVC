@@ -15,4 +15,10 @@
     return vc;
 }
 
+- (void)Action_MethodA:(NSDictionary *)params {
+    SettingVC *vc = SettingVC.new;
+    [vc methodA:params];
+    [UIApplication.sharedApplication.keyWindow.rootViewController presentViewController:vc animated:YES completion:nil];
+}
+
 @end

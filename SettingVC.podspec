@@ -31,7 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = "SettingVC/Classes/*",
-                   "SettingVC/Classes/Actions/*"
+                   "SettingVC/Classes/Actions/*",
+                   "SettingVC/Classes/*/*"
   
   # s.resource_bundles = {
   #   'SettingVC' => ['SettingVC/Assets/*.png']
@@ -42,5 +43,6 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'CTMediator'
   s.dependency 'ModuleActionsCategorys/HomeVC'
+  s.dependency 'Masonry'
 #  s.dependency 'CommonUtil'
 end
